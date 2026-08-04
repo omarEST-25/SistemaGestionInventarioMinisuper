@@ -48,7 +48,6 @@ La solución permite:
 - Generar reportes administrativos.
 - Reducir errores ocasionados por procesos manuales.
 
----
 
 # Arquitectura
 
@@ -63,24 +62,22 @@ La arquitectura del sistema se divide en los siguientes componentes:
 
 ### Arquitectura General
 
-```text
+
                 Usuario
                    │
-                   ▼
+                   
           Interfaz del Sistema
                    │
-                   ▼
+                   
           Lógica de Negocio
                    │
-                   ▼
+                   
           Acceso a Datos
                    │
-                   ▼
+                   
               Base de Datos
                  (MySQL)
-```
 
----
 
 # Tabla de Contenidos
 
@@ -100,7 +97,6 @@ La arquitectura del sistema se divide en los siguientes componentes:
 - [Créditos](#créditos)
 - [Licencia](#licencia)
 
----
 
 # Requerimientos
 
