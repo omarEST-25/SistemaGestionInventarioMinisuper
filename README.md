@@ -47,3 +47,87 @@ La solución permite:
 - Registrar ventas.
 - Generar reportes administrativos.
 - Reducir errores ocasionados por procesos manuales.
+
+---
+
+# Arquitectura
+
+El Sistema de Gestión de Inventario para Mini Súper está desarrollado siguiendo una arquitectura por capas, con el objetivo de facilitar el mantenimiento, la escalabilidad y la organización del código.
+
+La arquitectura del sistema se divide en los siguientes componentes:
+
+- **Interfaz de Usuario:** Permite la interacción del usuario mediante las diferentes pantallas del sistema.
+- **Lógica de Negocio:** Contiene las reglas de operación para la gestión de inventario, ventas, productos y proveedores.
+- **Acceso a Datos:** Se encarga de la comunicación con la base de datos MySQL para almacenar y recuperar información.
+- **Base de Datos:** MySQL almacena toda la información relacionada con productos, categorías, proveedores, inventario y ventas.
+
+### Arquitectura General
+
+```text
+                Usuario
+                   │
+                   ▼
+          Interfaz del Sistema
+                   │
+                   ▼
+          Lógica de Negocio
+                   │
+                   ▼
+          Acceso a Datos
+                   │
+                   ▼
+              Base de Datos
+                 (MySQL)
+```
+
+---
+
+# Tabla de Contenidos
+
+- [Resumen Ejecutivo](#resumen-ejecutivo)
+- [Descripción](#descripción)
+- [Problema identificado](#problema-identificado)
+- [Solución](#solución)
+- [Arquitectura](#arquitectura)
+- [Requerimientos](#requerimientos)
+- [Instalación](#instalación)
+- [Configuración](#configuración)
+- [Uso](#uso)
+- [Manual de Usuario](#manual-de-usuario)
+- [Manual del Administrador](#manual-del-administrador)
+- [Contribución](#contribución)
+- [Roadmap](#roadmap)
+- [Créditos](#créditos)
+- [Licencia](#licencia)
+
+---
+
+# Requerimientos
+
+## Software
+
+- Java JDK 17 o superior.
+- MySQL Server 8.0 o superior.
+- Apache Maven.
+- Git.
+- GitHub.
+
+## Herramientas de Desarrollo
+
+- IntelliJ IDEA o NetBeans.
+- MySQL Workbench.
+- GitHub Desktop (opcional).
+
+## Dependencias
+
+- Java
+- MySQL Connector
+- Maven
+
+## Sistema Operativo
+
+Compatible con:
+
+- Windows 10 o superior.
+- Linux.
+- macOS.
