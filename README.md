@@ -251,3 +251,103 @@ Permite registrar las ventas realizadas y actualizar automáticamente las existe
 
 Permite consultar la información del inventario y las ventas realizadas.
 
+---
+
+#  Manual del Administrador
+
+El administrador del sistema tiene acceso a todas las funcionalidades necesarias para la gestión del Mini Súper.
+
+## Funciones disponibles
+
+- Iniciar sesión como administrador.
+- Registrar, editar y eliminar productos.
+- Administrar categorías de productos.
+- Registrar y actualizar proveedores.
+- Registrar entradas y salidas de mercancía.
+- Gestionar el inventario.
+- Registrar ventas.
+- Consultar y generar reportes.
+
+## Administración de la base de datos
+
+El sistema utiliza MySQL para almacenar la información. Se recomienda realizar respaldos periódicos de la base de datos para garantizar la integridad de la información.
+
+---
+
+# Contribución
+
+Si deseas contribuir al proyecto, sigue los siguientes pasos:
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/omarEST-25/SistemaGestionInventarioMinisuper.git
+```
+
+### 2. Crear una nueva rama
+
+```bash
+git checkout -b nombre-de-la-rama
+```
+
+### 3. Realizar los cambios
+
+Desarrolla la funcionalidad o corrige el problema correspondiente.
+
+### 4. Guardar los cambios
+
+```bash
+git add .
+git commit -m "Descripción de los cambios"
+```
+
+### 5. Enviar los cambios al repositorio
+
+```bash
+git push origin nombre-de-la-rama
+```
+
+### 6. Crear un Pull Request
+
+Desde GitHub crea un Pull Request hacia la rama **develop** para que los cambios sean revisados antes de integrarse al proyecto.
+
+### 7. Revisión y Merge
+
+Una vez aprobados los cambios, se realizará el Merge hacia la rama correspondiente.
+
+---
+
+# Roadmap
+
+Las siguientes funcionalidades podrán implementarse en futuras versiones del sistema:
+
+- Gestión de clientes.
+- Control de usuarios mediante roles.
+- Generación de facturas en PDF.
+- Reportes gráficos de ventas.
+- Integración con lectores de código de barras.
+- Respaldo automático de la base de datos.
+- Panel de indicadores (Dashboard).
+- Implementación en la nube.
+
+---
+
+# Autores
+
+**Proyecto desarrollado por:**
+
+- Omar Estupiñán
+- Equipo de desarrollo del Proyecto Integrador
+
+**Institución:**
+
+Universidad Tecmilenio
+
+---
+
+# Licencia
+
+Este proyecto fue desarrollado con fines académicos como parte del Proyecto Integrador de la Universidad Tecmilenio.
+
+Su utilización está destinada exclusivamente para actividades educativas y de aprendizaje.
+
