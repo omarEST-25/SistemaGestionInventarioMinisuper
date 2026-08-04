@@ -127,3 +127,127 @@ Compatible con:
 - Windows 10 o superior.
 - Linux.
 - macOS.
+
+  ---
+
+# Instalación
+
+Para ejecutar el Sistema de Gestión de Inventario para Mini Súper es necesario preparar previamente el ambiente de desarrollo.
+
+## 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/omarEST-25/SistemaGestionInventarioMinisuper.git
+```
+
+## 2. Abrir el proyecto
+
+Importar el proyecto utilizando el IDE de preferencia (IntelliJ IDEA o NetBeans).
+
+## 3. Configurar la base de datos
+
+Crear una base de datos en MySQL.
+
+```sql
+CREATE DATABASE minisuper;
+```
+
+Importar el script de la base de datos correspondiente al proyecto.
+
+## 4. Configurar la conexión
+
+Modificar los parámetros de conexión a la base de datos según el entorno local.
+
+- Servidor
+- Puerto
+- Nombre de la base de datos
+- Usuario
+- Contraseña
+
+## 5. Compilar el proyecto
+
+Si se utiliza Maven:
+
+```bash
+mvn clean install
+```
+
+## 6. Ejecutar la aplicación
+
+Iniciar el proyecto desde el IDE o mediante Maven.
+
+---
+
+# Configuración
+
+Antes de ejecutar la aplicación es necesario verificar la configuración del entorno.
+
+## Base de datos
+
+Configurar la conexión hacia MySQL con los datos correspondientes:
+
+- Host
+- Puerto
+- Usuario
+- Contraseña
+- Base de datos
+
+## Variables del proyecto
+
+Verificar que todas las dependencias de Maven se descarguen correctamente antes de ejecutar el sistema.
+
+## Archivos de configuración
+
+Comprobar que los archivos de configuración del proyecto contengan los parámetros adecuados para establecer la comunicación con la base de datos.
+---
+
+# Uso
+
+Una vez iniciada la aplicación, el usuario podrá acceder a las diferentes funcionalidades del sistema.
+
+## Funcionalidades principales
+
+- Inicio de sesión.
+- Gestión de productos.
+- Gestión de categorías.
+- Gestión de proveedores.
+- Registro de entradas de mercancía.
+- Registro de salidas de mercancía.
+- Control de inventario.
+- Registro de ventas.
+- Generación de reportes.
+
+El sistema mantiene actualizada la información del inventario en la base de datos, permitiendo consultar las existencias disponibles y registrar las operaciones realizadas durante la jornada de trabajo.
+
+---
+
+# Manual de Usuario
+
+## Inicio de sesión
+
+El usuario deberá ingresar sus credenciales para acceder al sistema.
+
+## Gestión de productos
+
+Permite registrar, modificar, consultar y eliminar productos.
+
+## Gestión de categorías
+
+Permite administrar las diferentes categorías de productos.
+
+## Gestión de proveedores
+
+Permite registrar y actualizar la información de los proveedores.
+
+## Inventario
+
+Permite registrar entradas y salidas de mercancía, manteniendo actualizado el inventario.
+
+## Ventas
+
+Permite registrar las ventas realizadas y actualizar automáticamente las existencias.
+
+## Reportes
+
+Permite consultar la información del inventario y las ventas realizadas.
+
