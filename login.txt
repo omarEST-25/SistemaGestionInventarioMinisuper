@@ -1,0 +1,6 @@
+Módulo de inicio de sesión.
+
+Versión inicial del desarrollo.
+
+Proyecto:
+Sistema de Gestión de Inventario y Ventas para el Minisúper Los Tres Hermanos.
